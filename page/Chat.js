@@ -95,7 +95,10 @@ class Example extends React.Component {
         this._storeMessages(messages);
     }
     _storeMessages = (messages) => {
+<<<<<<< HEAD
         alert(JSON.stringify(messages))
+=======
+>>>>>>> first commit
         this.setState((previousState) => {
             return {
                 messages: GiftedChat.append(previousState.messages, messages),
@@ -108,7 +111,11 @@ class Example extends React.Component {
         var user = {_id: global.storage.name || -1};
         return (
             <ScrollView>
+<<<<<<< HEAD
                 <View style={{height: 800, backgroundColor: 'green'}}>
+=======
+                <View style={{height: 860, backgroundColor: 'green'}}>
+>>>>>>> first commit
                     <GiftedChat
                         placeholder="输入发送信息"
                         forceGetKeyboardHeight={true}
@@ -118,6 +125,10 @@ class Example extends React.Component {
                         user={user}
                     />
                 </View>
+<<<<<<< HEAD
+=======
+                <View style={{paddingBottom: 20}}></View>
+>>>>>>> first commit
             </ScrollView>
         )
     }

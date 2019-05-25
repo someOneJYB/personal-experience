@@ -43,7 +43,10 @@ class WaterfallUserLike extends Component {
         }).then(response => response.json()).catch(error => {
             alert(error.message)
         }).then(response => {
+<<<<<<< HEAD
             alert(response.message)
+=======
+>>>>>>> first commit
             if(response.code === 100) {
                 this.onHeaderRefresh()
             }

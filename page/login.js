@@ -54,7 +54,10 @@ export default class Login extends Component {
             this.end();
             alert(error)
         }).then(response => {
+<<<<<<< HEAD
             alert(JSON.stringify(response))
+=======
+>>>>>>> first commit
             this.end();
             if(response.code === 1) {
                 global.storage = {

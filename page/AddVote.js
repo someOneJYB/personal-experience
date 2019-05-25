@@ -49,7 +49,10 @@ class AddItem extends Component {
                 console.log('User tapped custom button: ', response.customButton);
             } else {
                 let source = {uri: response.uri};
+<<<<<<< HEAD
                 alert(response.uri)
+=======
+>>>>>>> first commit
                 this.num++;
                 // You can also display the image using data:
                 // let source = { uri: 'data:image/jpeg;base64,' + response.data };
@@ -130,7 +133,11 @@ class AddItem extends Component {
                 options[`content${index + 1}`] = item
             }
         })
+<<<<<<< HEAD
         fetch(`127.0.0.1:3000/book/add/${this.state.selected}`, {
+=======
+        fetch(`http://127.0.0.1:3000/book/add/${this.state.selected}`, {
+>>>>>>> first commit
             method: 'POST',
             headers: {
                 Accept: 'application/json',

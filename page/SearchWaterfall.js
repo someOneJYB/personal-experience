@@ -79,7 +79,10 @@ class Waterfalls extends Component {
             // 或者有其他异常，则在catch中返回
 
         })
+<<<<<<< HEAD
         alert(JSON.stringify(id))
+=======
+>>>>>>> first commit
         return id
     }
 

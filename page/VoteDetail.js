@@ -59,7 +59,11 @@ class Detail extends Component {
 
     }
 
+<<<<<<< HEAD
     callBack = () => {
+=======
+    callBack = ( ) => {
+>>>>>>> first commit
         this.a = 0
     }
 
